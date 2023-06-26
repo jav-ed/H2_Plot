@@ -2,6 +2,11 @@
 import { Picture } from "@astrojs/image/components";
 import { Icon } from "astro-icon";
 import astronautImage from "~/assets/astronaut.png";
+
+// add swith image
+import swith_Img from "~/assets/0_Wing_Tube.png";
+
+
 import HeroImage from "~/components/hero-image.astro";
 import Starfield from "~/components/starfield.astro";
 import GitHubCorner from "./github-corner.astro";
@@ -22,20 +27,25 @@ const sizes = "(min-width: 640px) 42vw, 67vw";
     >
       <Icon name="logomark" class="h-24 text-white md:h-32" />
       <div
-        class="gradient-text text-center font-extrabold tracking-tighter text-8xl"
+        class=" gradient-text 
+                text-center
+                font-extrabold 
+                tracking-tighter 
+                text-4xl"
       >
-        Build fast
-        <br /> websites,
-        <br /> faster.
+      Flying with Hydrogen: <br>
+      Exploring Benefits, Challenges, and Future Prospects of Aircraft Wing-Structure-Integrated High-Pressure Hydrogen Tanks
       </div>
     </h2>
     <div
       id="astronaut"
       class="w-2/3 max-w-3xl self-start sm:w-10/12 sm:self-auto sm:justify-self-start"
     >
+
+    
       <Picture
         class="h-full w-full object-cover"
-        src={astronautImage}
+        src={swith_Img}
         widths={widths}
         sizes={sizes}
         loading="eager"
