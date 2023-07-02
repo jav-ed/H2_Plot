@@ -5,7 +5,7 @@ import { defineConfig } from "astro/config";
 // https://astro.build/config
 export default defineConfig({
   site: "https://jav-ed.github.io",
-  base: "paper_H2O_Webpage_Code",
+  base: "H2O_Plot",
   integrations: [
     tailwind(),
     image({
