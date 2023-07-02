@@ -4,10 +4,10 @@ import ThemeSwitcher from "~/components/theme-switcher.astro";
 import type { NavItem } from "~/types";
 
 const navItems: Array<NavItem> = [
-  { title: "Diagramm", url: "#features" },
-  { title: "Paper", url: "#features" },
-  { title: "About Author", url: "#compatibility" },
-  { title: "Used Tools", url: "#showcase" },
+  { title: "Diagramm", url: "#intro" },
+  { title: "Paper", url: "0_Own/1_Building_Mess" },
+  { title: "About Author", url: "https://jav-ed.github.io/master_Thesis/Data/8_Add_2_Master/2_About_Author.html" },
+  { title: "Used Tools", url: "0_Own/1_Building_Mess" },
 ];
 ---
 
@@ -28,7 +28,10 @@ const navItems: Array<NavItem> = [
           {
             navItems.map(({ title, url }) => (
               <li>
-                <a class="text-sm" href={url}>
+
+                <!-- When title equals "About Author" then open it in a new tab -->
+                <a class="text-sm" href={url} 
+                    target={title === 'About Author' ? "_blank" : "_self"}>
                   {title}
                 </a>
               </li>

@@ -21,3 +21,7 @@ a,
   @apply bg-clip-text text-transparent;
   @apply bg-gradient-to-br from-green-600 via-blue-400 to-blue-700;
 }
+
+.text_Color_Green {
+  @apply text-green-500
+}

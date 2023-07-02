@@ -2,41 +2,52 @@
 import { Icon } from "astro-icon";
 import ContentSection from "~/components/content-section.astro";
 
-import H2O_Plot from "~/assets/h2_Density.html";
+// works fine, button pressed --> confetti
+// first letter has to be capitalized
+import Confetti_Btn from "~/components/Trials/confetti_Button.astro";
+
+
+// Plotly
+import Load_Scripts from "~/components/Trials/load_Scripts.astro";
+import Show_Plot from "~/components/Trials/plotly_Plt.astro";
+
+import H2O_Plot from "~/pages/0_Own/h2_Density.html";
+// import H2O_Astro from "~/assets/h2_Density.astro";
+
+
 ---
-<ContentSection title="Hydrogen Density-Pressure-Temperature Plot" 
+<ContentSection 
+title="Hydrogen Density-Pressure-Temperature Plot" 
 id="intro">
-  <Icon slot="eyebrow" name="logomark" class="h-32" />
+  <!-- <Icon slot="eyebrow" name="logomark" class="h-32" /> -->
   
   <Fragment slot="lead">
-    Astro is a new kind of site builder for the
-    <span class="text-primary">modern</span> web.
-    <span class="text-primary">Lightning-fast</span>
-    performance meets <span class="text-primary">powerful</span> developer experience.
+    The following plot provides an interactive view that allows exploration of the relationship between hydrogen's density, pressure, and temperature.
+    You can use the legend to selectively hide or show the desired H2 plot.
+    Also, if you prefer a white background, locate the button labeled 'Dark' and select 'Presentation'.
   </Fragment>
-  <!-- 
-    <div class="grid grid-cols-1 gap-2 sm:grid-cols-2">
-      <a
-        href="https://docs.astro.build/"
-        class="flex items-center justify-center gap-3 border-2 border-current px-6 py-4"
-      >
-        <Icon pack="mdi" name="telescope" class="h-8" />
-        <span>Read the docs</span>
-      </a>
-      <a
-        href="https://astro.new/"
-        class="flex items-center justify-center gap-3 border-2 border-current px-6 py-4"
-      >
-        <Icon pack="mdi" name="rocket" class="h-8" />
-        <span>Try it out</span>
-      </a>
-    </div> -->
 
-  <div>
-    Hallo, here comes some texta
-  </div>
+  <!-- <Confetti_Btn /> -->
 
-  <H2O_Plot />
+  <!-- load some scripts that are required for the plotly plot -->
+  <Load_Scripts />
   
+  <div  id="375e52d1-7d4a-4ca7-b949-22645347748f"
+        class=" plotly-graph-div
+                w-11/12
+                py-8
+                "
+        style="height:87vh;"
+                > 
+  
+    <!-- after the div was generated using plotly id, plotly class and tailwind class, use script code to generate the plot -->
+    <Show_Plot />
+  
+  </div>
+  
+  <!-- <a href="0_Own/1_Building_Mess" class="btn"> Here comes some text</a> -->
+
+
 </ContentSection>
+
 
