@@ -1,5 +1,3 @@
-
-import warnings
 import pathlib
 import plotly.io as pio
 import plotly.express as px
@@ -16,7 +14,12 @@ class HT_Meth:
     # ======================================================================
     @staticmethod
     def gen_HTML(fig, save_Loc, file_Name):
-                 
+
+        # create output folder if required
+        cwd = pathlib.Path.cwd()
+        save_Loc = cwd / save_Loc
+        save_Loc.mkdir(parents=True, exist_ok=True)
+             
         # fig.show
         # store the figure as html
         save_Loc = f"{save_Loc}/{file_Name}.html"
