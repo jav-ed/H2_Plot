@@ -59,6 +59,16 @@ For more detailed information about this topic, please refer to the original pap
 
 *Lemmon, E.W.; Huber, M.L.; Friend, D.G.; Paulina, C.; et al. Standardized equation for hydrogen gas densities for fuel consumption applications. In Proceedings of the SAE World Congress, 2006, pp. 3–6.*
 
+## License
+Find a full copy in Others/LICENSE.md or
+
+[![Hippocratic License HL3-BDS-CL-ECO-EXTR-MEDIA-MIL-SV-XUAR](https://img.shields.io/static/v1?label=Hippocratic%20License&message=HL3-BDS-CL-ECO-EXTR-MEDIA-MIL-SV-XUAR&labelColor=5e2751&color=bc8c3d)](https://firstdonoharm.dev/version/3/0/bds-cl-eco-extr-media-mil-sv-xuar.html)
+
+### License in short
+You are free to use the content of this webpage for whatever you like, including modification, sale, distribution, and more. However, please note that there are some important restrictions: You can do whatever you like with this content as long as it is halal or morally supportable. If you are unsure about a topic, please consult the license agreement.
+
+First, you are not allowed to insult, target minorities or religious groups, support Israel's government, assist India in its oppression in Kashmir, assist the Chinese government's oppression against Uighurs, and so on.
+Second, there is a copyleft - it basically means, your work is mandated to have the same license, i.e., you as well want to make sure that your work cannot be misused.
 
 
 ### Others
