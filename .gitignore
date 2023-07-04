@@ -46,3 +46,5 @@ Output/
 .vscode
 **/__pycache__
 
+# these files shall not be ignored
+!Data/0_Imgs/0_Wing_Tube.png

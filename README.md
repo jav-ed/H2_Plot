@@ -72,4 +72,4 @@ Second, there is a copyleft - it basically means, your work is mandated to have 
 
 
 ### Others
-pep8 guide style? - no, thank you
+PEP 8 guide style? - no, thank you
