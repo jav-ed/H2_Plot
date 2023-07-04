@@ -43,5 +43,6 @@ lib64
 *.jpeg
 
 Output/
+.vscode
 **/__pycache__
 
