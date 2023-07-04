@@ -21,3 +21,27 @@ pnpm-debug.log*
 .DS_Store
 
 0_Manag/
+
+# Packages
+*.egg
+*.egg-info
+build
+eggs
+parts
+bin
+var
+sdist
+develop-eggs
+.installed.cfg
+lib
+lib64
+
+# file-types
+*.pyc
+*.png
+*.jpg
+*.jpeg
+
+Output/
+**/__pycache__
+
