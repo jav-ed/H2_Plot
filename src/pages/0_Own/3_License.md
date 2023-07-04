@@ -1,9 +1,14 @@
+---
+layout: '../../layouts/main.astro'
+title: 'License'
+
+---
+
+
 
 # License
 
 [![Hippocratic License HL3-BDS-CL-ECO-EXTR-MEDIA-MIL-SV-XUAR](https://img.shields.io/static/v1?label=Hippocratic%20License&message=HL3-BDS-CL-ECO-EXTR-MEDIA-MIL-SV-XUAR&labelColor=5e2751&color=bc8c3d)](https://firstdonoharm.dev/version/3/0/bds-cl-eco-extr-media-mil-sv-xuar.html)
-
-
 
 ## License in short
 You are free to use the content of this webpage for whatever you like, including modification, sale, distribution, and more. However, please note that there are some important restrictions: You can do whatever you like with this content as long as it is halal or morally supportable. If you are unsure about a topic, please consult the license agreement.
