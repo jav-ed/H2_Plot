@@ -3,7 +3,7 @@
 This code is part of the paper that is submitted, please find additional information on that [here](https://jav-ed.github.io/H2O_Plot/).
 Basically, research has been conducted regarding a new type of airplane that very much depends on hydrogen. An illustrative example of this aircraft can be found below.
 
-![Illustrative example of a Wing- Structure- Integrated high-pressure Hydrogen Tank (SWITH)1](Data/0_Imgs/0_Wing_Tube.png)
+![Illustrative example of a Wing- Structure- Integrated high-pressure Hydrogen Tank (SWITH)](Data/0_Imgs/0_Wing_Tube.png)
 
 Given that these aircraft are intended to be propelled by hydrogen, understanding the impact of hydrogen within this configuration is of great importance.
 In the context of SWITHs, several aspects highlight its innovative nature:
