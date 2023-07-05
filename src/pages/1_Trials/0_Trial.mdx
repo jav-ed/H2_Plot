@@ -1,0 +1,75 @@
+---
+layout: '../../layouts/main.astro'
+title: 'License'
+variable_0: "Testing Things"
+---
+
+
+
+# {frontmatter.variable_0}
+
+<article class="prose dark:prose-invert">
+
+# Next title
+
+After some text the next title shall be shown
+
+
+
+<div className="note">
+  > Some notable things in a block quote!
+</div>
+
+<blockquote>
+  <p>A blockquote with <em>some</em> emphasis.</p>
+</blockquote>
+
+# Heading (rank 1)
+## Heading 2
+### 3
+#### 4
+##### 5
+###### 6
+
+> Block quote
+
+* Unordered
+* List
+
+1. Ordered
+2. List
+
+A paragraph, introducing a thematic break:
+
+---
+
+```js
+some.code()
+```
+
+export const name = 'World'
+export const title = 'Hi, ' + name + '!'
+
+# {title}
+
+
+
+
+<a href="/H2O_Plot/1_Trials/1_Trial">Works</a>
+
+<a href="/1_Trials/1_Trial">1</a>
+
+<a href={import.meta.env.BASE_URL}>3</a>
+<a href={import.meta.env.SITE}>4</a>
+
+something **strong**, and finally a little `code()`.
+
+a [link](https://example.com)  some *emphasis*,
+</article>
+
+
+this cannot be added inside the article tag - do not know why
+
+
+an ![image](https://plus.unsplash.com/premium_photo-1676210736121-3994f53bb493?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=698&q=80),
+

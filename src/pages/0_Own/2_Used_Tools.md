@@ -4,22 +4,13 @@ title: 'My Markdown page'
 
 ---
 
-# Under Construction
+<article class="prose dark:prose-invert">
 
-The content is not defined up to now and will be provided inshallah later on.
+# Used Tools
+1. [Astro](https://astro.build/)
+2. [Plotly](https://plotly.com/)
+3. [Astro landing page](https://github.com/mhyfritz/astro-landing-page)
+4. [VSCode](https://code.visualstudio.com/)
+5. [GitHub](https://github.com/jav-ed)
 
-<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-<!-- https://lottiefiles.com/90766-architecture-and-construction-animation?lang=de -->
-<lottie-player
-  id="lottie_Player_CV_Engl"
-  autoplay
-  loop
-  mode="bounce"
-  src="https://assets10.lottiefiles.com/packages/lf20_bsatc9vq.json"
-  style="width: 100%;
-         margin-top: 50px;">
-</lottie-player>
-
-
-<!-- src="../construc_Lotti.json" -->
-<!-- https://assets10.lottiefiles.com/packages/lf20_bsatc9vq.json -->
+</article>

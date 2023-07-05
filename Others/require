@@ -1,0 +1,6 @@
+
+Web packages/modules:
+npm install remark-math remark-breaks rehype-mathjax rehype-slug rehype-figure remark-code-titles
+
+see: https://tailwindcss.com/docs/typography-plugin
+npm install -D @tailwindcss/typography
