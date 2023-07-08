@@ -32,12 +32,15 @@ module.exports = {
 
       /* --------------------------- theme extend --------------------------- */
       typography: {
+
+        /* ================================================================== */
+        /* ======== this is the place where the dark theme is defined ======= */
+        /* ================================================================== */
+        // also habe a look at:node_modules/@tailwindcss/typography/src/styles.js
         DEFAULT: {
           css: {
-            // '--tw-prose-body': 'var(--tw-prose-invert-body)',
-            // '--tw-prose-headings': 'var(--tw-prose-invert-headings)',
-            '--tw-prose-body': 'var(--shiny_White)',
-            '--tw-prose-headings': 'var(--cl_Neon_Green)',
+            '--tw-prose-body': 'var(--tw-prose-invert-body)',
+            '--tw-prose-headings': 'var(--tw-prose-invert-headings)',
             '--tw-prose-lead': 'var(--tw-prose-invert-lead)',
             '--tw-prose-links': 'var(--tw-prose-invert-links)',
             '--tw-prose-bold': 'var(--tw-prose-invert-bold)',
@@ -73,7 +76,7 @@ module.exports = {
   },
   plugins: [
     require("tailwindcss-fluid-type"),
-    require("@tailwindcss/typography"),
+    require("@tailwindcss/typography"),  
 ],
 };
 

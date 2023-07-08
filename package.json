@@ -9,7 +9,8 @@
     "preview": "astro preview",
     "astro": "astro",
     "format": "prettier --write .",
-    "clean": "rimraf dist .astro node_modules"
+    "clean": "rimraf dist .astro node_modules",
+    "preinstall": "npx only-allow pnpm"
   },
   "devDependencies": {
     "@astrojs/image": "^0.16.6",

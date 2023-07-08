@@ -1,0 +1,43 @@
+---
+layout: '../../layouts/main.astro'
+title: 'Under Construction'
+---
+
+{/* lottie path*/}
+export const lottie_Path = "../../H2O_Plot/src/assets/0_Lotti/construc_Lotti.json";
+
+
+{/* next important statement requires one free line */}
+import Confetti_Btn from "~/components/Trials/confetti_Button.astro";
+
+
+<article class="prose dark:prose-invert">
+
+
+# Under Construction
+
+The content is not defined up to now and will be provided inshallah later on.
+
+
+{/* make sure to have an addional line break after imports, otherwise calling the components wont work */}
+<Confetti_Btn />
+
+<Confetti_Btn />
+
+<Confetti_Btn />
+
+
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
+<lottie-player
+  id="lottie_Player_CV_Engl"
+  autoplay
+  loop
+  mode="bounce"
+  src= {lottie_Path}
+  style="width: 100%;
+         margin-top: 50px;">
+</lottie-player>
+
+
+</article>

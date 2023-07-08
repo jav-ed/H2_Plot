@@ -1,0 +1,120 @@
+---
+layout: '../../layouts/main.astro'
+title: 'Acknowledgement'
+
+---
+
+{/* ------------------------- export some variables ------------------------ */}
+export const lot_Path_Bismillah = "../../H2O_Plot/src/assets/0_Lotti/bismillah.lottie";
+
+
+export const lot_Path_Mosque = "../../H2O_Plot/src/assets/0_Lotti/mosque.lottie";
+
+{/* ----------------------- load all required sources ---------------------- */}
+<script src="https://unpkg.com/@dotlottie/player-component@1.0.0/dist/dotlottie-player.js"></script>
+
+
+{/* ======================================================================== */}
+{/* ============================= start article ============================ */}
+{/* ======================================================================== */}
+<article class="prose">
+
+# Acknowledgement
+
+All praise and thanks to the 
+
+{/* -------------------------- bismillah animation ------------------------- */}
+{/* grid gives each item the same space - not desired here */}
+{/* <div class="grid grid-cols-2 gap-4 "> */}
+{/* <div class="grid grid-cols-2 gap-1 place-items-center"> */}
+
+{/* flex consideres each element for itself - takes only as much space as required by default */}
+<div class="flex items-center">
+
+  <p class="border-8 ">**ONE**</p>
+
+  <div class=" border-8" id="bismillah_Anim">
+  {/* the bismillah file is obtained through:https://lottiefiles.com/4098-bismillah-in-the-name-of-allah?lang=de 
+and https://lottiefiles.com/xylam */}
+
+  <dotlottie-player
+    id="bismillah"
+    class="bismillah_Anim"
+    autoplay
+    loop
+    mode="bounce"
+    src= {lot_Path_Bismillah}
+    style="width: 100%"></dotlottie-player>
+  </div>
+
+</div>
+
+
+, Who does neither need my praise nor my thanks. To the 
+
+{/* --------------------------- mosque animation --------------------------- */}
+<div class="flex items-center">
+  <div class="w-1/12" id="mosque_Anim">
+  {/* the mosque file is obtained through:https://lottiefiles.com/102940-faisal-mosque?lang=de and https://lottiefiles.com/ranaadeelfarrukh */}
+  <dotlottie-player
+    id="bismillah"
+    class="mosque_Anim"
+    autoplay
+    speed="2"
+    loop
+    mode="bounce"
+    src= {lot_Path_Mosque}
+    style="width: 100%"></dotlottie-player>
+  </div>
+  <p >**ONE**</p>
+
+</div>
+
+
+, Who is independent of everything and everyone, but on Whom everything and everyone depends.
+
+</article >
+
+
+<div class="flex items-center">
+  <p>**ONE**</p>
+
+  <div class="w-1/2" id="bismillah_Anim">
+  {/* the bismillah file is obtained through:https://lottiefiles.com/4098-bismillah-in-the-name-of-allah?lang=de 
+and https://lottiefiles.com/xylam */}
+
+  <dotlottie-player
+    id="bismillah"
+    class="bismillah_Anim"
+    autoplay
+    loop
+    mode="bounce"
+    src= {lot_Path_Bismillah}
+    style="width: 100%"></dotlottie-player>
+  </div>
+
+</div>
+
+<div class="border border-sky-500"></div>
+<div class="border-2 border-sky-500"></div>
+<div class="border-4 border-sky-500"></div>
+<div class="border-8 border-sky-500"></div>
+
+<div class="flex flex-cols-2 gap-2">
+  <div><p>**ONE**</p></div>
+  <div><p>**ONE**</p></div>
+  <div class="rounded-full border-8 border-sky-500">Here</div>
+  <div class="rounded-full border-8 border-sky-500">Here</div>
+</div>
+
+<div class="flex">
+  <div class="flex-none w-14 h-14">
+    01
+  </div>
+  <div class="flex w-64 ...">
+    02
+  </div>
+  <div class="flex-initial w-32 ...">
+    03
+  </div>
+</div>

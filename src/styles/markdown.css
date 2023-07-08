@@ -58,3 +58,13 @@ pre[class^='language-'] {
 	background: rgba(0, 0, 0, 0.05);
 	border-radius: 0 0 4px 4px;
 }
+
+
+/* define color variables */
+:root {
+    --cl_Neon_Green: #ecff80;
+    --shiny_White: #fffdfa; 
+	--red_Cl: #EF0C58;
+	--green_Cl: #0CEF22;
+	--turq_Cl: #0CDAEF;
+  } 
