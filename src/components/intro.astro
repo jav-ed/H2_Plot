@@ -8,8 +8,9 @@ import Confetti_Btn from "~/components/Trials/confetti_Button.astro";
 
 
 // Plotly
-import Load_Scripts from "~/components/Trials/load_Scripts.astro";
-import Show_Plot from "~/components/Trials/plotly_Plt.astro";
+import Load_Scripts from "~/components/0_Own/load_Scripts.astro";
+import Show_Plot_Density from "~/components/0_Own/plotly_Plt_Dens.astro";
+import Show_Plot_Z from "~/components/0_Own/plotly_Plt_Z_Fac.astro";
 
 import H2O_Plot from "~/pages/0_Own/h2_Density.html";
 // import H2O_Astro from "~/assets/h2_Density.astro";
@@ -32,6 +33,7 @@ id="intro">
   <!-- load some scripts that are required for the plotly plot -->
   <Load_Scripts />
   
+  <!-- --------------------------- density plot ---------------------------- -->
   <div  id="375e52d1-7d4a-4ca7-b949-22645347748f"
         class=" plotly-graph-div
                 w-11/12
@@ -41,13 +43,24 @@ id="intro">
                 > 
   
     <!-- after the div was generated using plotly id, plotly class and tailwind class, use script code to generate the plot -->
-    <Show_Plot />
+    <Show_Plot_Density />
   
   </div>
   
-  <!-- <a href="0_Own/1_Building_Mess" class="btn"> Here comes some text</a> -->
-
-
+  <!-- --------------------------- z factor plot --------------------------- -->
+  <div  id="z_Factor_Plt"
+        class=" plotly-graph-div
+                w-11/12
+                py-8
+                "
+        style="height:87vh;"
+                > 
+  
+    <!-- after the div was generated using plotly id, plotly class and tailwind class, use script code to generate the plot -->
+    <Show_Plot_Z />
+  
+  </div>
+  
 </ContentSection>
 
 
