@@ -4,3 +4,5 @@ npm install remark-math remark-breaks rehype-mathjax rehype-slug rehype-figure r
 
 see: https://tailwindcss.com/docs/typography-plugin
 npm install -D @tailwindcss/typography
+
+npm i canvas-confetti
