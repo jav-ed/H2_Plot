@@ -13,6 +13,7 @@ import rehypeFigure from 'rehype-figure';
 import remarkCodeTitles from 'remark-code-titles';
 
 
+
 // https://astro.build/config
 export default defineConfig({
   site: "https://jav-ed.github.io",

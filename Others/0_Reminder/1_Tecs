@@ -1,0 +1,6 @@
+
+Used mdx with astro and tailwind. Sometimes mdx would not work until used the same code and inserted inside a markdown file.
+--> It can't be known wheter the code is not working or just the compilation with mdx is not working
+
+For now the safest way is to use regular markdwon.
+For later, if any special mdx features are required, one has to think again. In general .astro and md can be combined quite well

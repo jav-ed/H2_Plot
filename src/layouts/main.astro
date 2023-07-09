@@ -8,6 +8,10 @@ const { content } = Astro.props;
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width" />
 
+		<!-- icon that is displayed inside the tab -->
+		<link rel="icon" href="/src/icons/aircraft.svg" type="image/svg+xml" />
+
+
 		<title>{content.title}</title>
 		<style>
 			.nav {
@@ -22,7 +26,7 @@ const { content } = Astro.props;
 	</head>
 	<body>
 		<main class="content ">
-			<header class ="prose dark:prose-invert">
+			<header class ="prose">
 				<nav class="nav">
 					<a href="/H2O_Plot/">Go Back to Main Page</a>
 				</nav>
