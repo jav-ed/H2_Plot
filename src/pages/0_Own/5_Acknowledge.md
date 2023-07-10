@@ -41,10 +41,11 @@ and https://lottiefiles.com/xylam -->
     class="bismillah_Anim"
     autoplay
     loop
+    src="0_Lotti/bismillah.lottie"
     mode="bounce"
-    src="../../src/assets/0_Lotti/bismillah.lottie"
     style="width: 100%"></dotlottie-player>
   </div>
+    <!-- src="../../src/assets/0_Lotti/bismillah.lottie" -->
 
 </div>
 
@@ -62,7 +63,7 @@ and https://lottiefiles.com/xylam -->
     speed="2"
     loop
     mode="bounce"
-    src="../../assets/0_Lotti/mosque.lottie"
+    src="0_Lotti/mosque.lottie"
     style="width: 100%"></dotlottie-player>
   </div>
 
