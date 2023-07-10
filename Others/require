@@ -5,6 +5,13 @@ npm install remark-math remark-breaks rehype-mathjax rehype-slug rehype-figure r
 see: https://tailwindcss.com/docs/typography-plugin
 npm install -D @tailwindcss/typography
 
+https://github.com/saadeghi/daisyui
+npm install -D -D daisyui@latest
+
 npm i canvas-confetti
 
 npx astro add mdx
+
+
+theme changer, see: https://github.com/saadeghi/theme-change
+npm i theme-change --save

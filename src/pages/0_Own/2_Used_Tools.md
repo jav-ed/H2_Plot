@@ -36,6 +36,9 @@ title: 'Used Tools'
   <div>
     9. <a href="https://iconify.design/" target="_blank">Iconify</a>
   </div>
+  <div>
+    10.  <a href="https://github.com/saadeghi/daisyui" target="_blank">daisyUI</a>
+  </div>
 </div>
 
 

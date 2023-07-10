@@ -10,9 +10,10 @@ const { content } = Astro.props;
 
 		<!-- icon that is displayed inside the tab, found in the public folder -->
 		<link rel="icon" href="/H2O_Plot/aircraft.svg" type="image/svg+xml" />
-
-
 		<title>{content.title}</title>
+		<button data-set-theme="" data-act-class="ACTIVECLASS"></button>
+		<button data-set-theme="dark" data-act-class="ACTIVECLASS"></button>
+		<button data-set-theme="pink" data-act-class="ACTIVECLASS"></button>
 		<style>
 			.nav {
 				border-bottom: 1px solid #ccc;
