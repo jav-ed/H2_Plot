@@ -10,6 +10,7 @@ const navItems: Array<NavItem> = [
   { title: "Source Code", url: "https://github.com/jav-ed/H2O_Plot" },
   { title: "Acknowledgement", url: "0_Own/0_Acknowledge" },
   { title: "About Author", url: "https://jav-ed.github.io/master_Thesis/Data/8_Add_2_Master/2_About_Author.html" },
+  { title: "Other Papers", url: "https://orcid.org/0009-0003-3712-4963" },
   { title: "Used Tools", url: "0_Own/2_Used_Tools" },
   { title: "License", url: "0_Own/3_License" },
   // { title: "Trial_0", url: "1_Trials/7_Path_Resolve" },
@@ -38,7 +39,8 @@ const navItems: Array<NavItem> = [
                 <!-- When title equals "About Author" then open it in a new tab -->
                 <a class="text-sm" href={url} 
                     target={title === 'About Author'  
-                            || title === 'Source Code' ? "_blank" : "_self"}>
+                            || title === 'Source Code'
+                            || title === 'Other Papers' ? "_blank" : "_self"}>
                   {title}
                 </a>
               </li>
