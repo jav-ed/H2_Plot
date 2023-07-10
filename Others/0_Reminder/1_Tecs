@@ -4,3 +4,6 @@ Used mdx with astro and tailwind. Sometimes mdx would not work until used the sa
 
 For now the safest way is to use regular markdwon.
 For later, if any special mdx features are required, one has to think again. In general .astro and md can be combined quite well
+
+--- access lottifiles --
+the files can be inserted inside the public folder, the assets folder did not work up to now. Maybe some modifications in a config are required
