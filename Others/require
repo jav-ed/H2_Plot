@@ -6,3 +6,5 @@ see: https://tailwindcss.com/docs/typography-plugin
 npm install -D @tailwindcss/typography
 
 npm i canvas-confetti
+
+npx astro add mdx
