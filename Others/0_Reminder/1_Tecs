@@ -7,3 +7,22 @@ For later, if any special mdx features are required, one has to think again. In 
 
 --- access lottifiles --
 the files can be inserted inside the public folder, the assets folder did not work up to now. Maybe some modifications in a config are required
+
+astro config:
+// https://astro.build/config
+export default defineConfig({
+  site: "https://jav-ed.github.io",
+  base: "/H2O_Plot",
+
+File: src/pages/0_Own/0_Acknowledge.mdx
+
+export const lot_Path_Bismillah = "/H2O_Plot/0_Lotti/bismillah.lottie";
+<dotlottie-player
+    id="bismillah"
+    class="bismillah_Anim"
+    autoplay
+    loop
+    mode="bounce"
+    src= {lot_Path_Bismillah}
+    style="width: 100%">
+</dotlottie-player>
