@@ -8,7 +8,7 @@ title: 'Used Tools'
 
 # Used Tools
 
-<div class="grid grid-cols-2 gap-4">
+<div class="grid grid-rows-5 grid-flow-col gap-4">
   <div>
     1. <a href="https://github.com/withastro/astro" target="_blank">Astro</a>
   </div>
@@ -37,7 +37,7 @@ title: 'Used Tools'
     9. <a href="https://iconify.design/" target="_blank">Iconify</a>
   </div>
   <div>
-    10.   <a href="https://github.com/saadeghi/daisyui" target="_blank">daisyUI</a>
+    10.    <a href="https://github.com/saadeghi/daisyui" target="_blank">daisyUI</a>
   </div>
 </div>
 
