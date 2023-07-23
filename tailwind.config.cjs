@@ -71,6 +71,7 @@ module.exports = {
     // default bahaviour is: true
     // preflight: true, // this disables preflight
   },
+
   plugins: [
     require("tailwindcss-fluid-type"),
     require("@tailwindcss/typography"),
@@ -80,12 +81,12 @@ module.exports = {
 
 
 
-daisyui: {
-  // themes: false, // disable all themes
-  themes: ["", 
-          // "light", "dark", "cupcake"
-],
-},
+  daisyui: {
+    // themes: false, // disable all themes
+    themes: ["", 
+            // "light", "dark", "cupcake"
+            ],
+    },
 
 
 
