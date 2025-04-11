@@ -42,7 +42,7 @@ and https://lottiefiles.com/xylam -->
     autoplay
     loop
     mode="bounce"
-    src="../../H2O_Plot/src/assets/0_Lotti/bismillah.lottie"
+    src="../../H2_Plot/src/assets/0_Lotti/bismillah.lottie"
     style="width: 100%"></dotlottie-player>
   </div>
 
@@ -62,7 +62,7 @@ and https://lottiefiles.com/xylam -->
     speed="2"
     loop
     mode="bounce"
-    src="../../H2O_Plot/src/assets/0_Lotti/mosque.lottie"
+    src="../../H2_Plot/src/assets/0_Lotti/mosque.lottie"
     style="width: 100%"></dotlottie-player>
   </div>
 
