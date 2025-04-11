@@ -20,8 +20,14 @@ jobs:
     steps:
       - name: Checkout your repository using git
         uses: actions/checkout@v3
+
       - name: Install, build, and upload your site
         uses: withastro/action@v0
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v1
+        with:
+          path: ./dist  # Adjust this if your Astro build outputs elsewhere
         # with:
         #     path: . # The root location of your Astro project inside the repository. (optional)
         #     node-version: 18.16.0 # The specific version of Node that should be used to build your site. Defaults to 16. (optional)
