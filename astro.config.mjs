@@ -17,7 +17,7 @@ import remarkCodeTitles from 'remark-code-titles';
 // https://astro.build/config
 export default defineConfig({
   site: "https://jav-ed.github.io",
-  base: "/H2O_Plot",
+  base: "/H2_Plot",
   /* ------------------------------- markdown ------------------------------- */
   markdown: {
     remarkPlugins: [
