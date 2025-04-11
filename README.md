@@ -1,6 +1,6 @@
 # Initial Words
 
-This code is part of the paper that is submitted, please find additional information on that [here](https://jav-ed.github.io/H2O_Plot/).
+This code is part of the paper that is submitted, please find additional information on that [here](https://jav-ed.github.io/H2_Plot/).
 Basically, research has been conducted regarding a new type of airplane that very much depends on hydrogen. An illustrative example of this aircraft can be found below.
 
 ![Illustrative example of a Wing- Structure- Integrated high-pressure Hydrogen Tank (SWITH)](Data/0_Imgs/0_Wing_Tube.png)
@@ -13,12 +13,12 @@ In the context of SWITHs, several aspects highlight its innovative nature:
 4) It's likely that these tanks will be made of composite material,
 5) Among other factors.
    
-To understand why these points above were listed, what other points were skipped and what their consequences are, please be invited to read the [paper](https://jav-ed.github.io/H2O_Plot/).
+To understand why these points above were listed, what other points were skipped and what their consequences are, please be invited to read the [paper](https://jav-ed.github.io/H2_Plot/).
 
 ## What Does The Code Do
 The output of the code is an interactive html file that will show the  density-pressure-temperature relationship of hydrogen. 
 The output will be generated inside the folder *Output*.
-You can find an online example [here](https://jav-ed.github.io/H2O_Plot/).
+You can find an online example [here](https://jav-ed.github.io/H2_Plot/).
 The plot's legend can be used to selectively display or hide desired hydrogen (H2) data sets as needed.
 When the word *interactive* is used for the html display, it means, among other things, that a pop-up appears in which the values for current density, pressure and temperature are displayed.
 
@@ -31,8 +31,8 @@ When the word *interactive* is used for the html display, it means, among other 
 5) Find the output in the folder called *Output*
 
 ```bash
-git clone https://github.com/jav-ed/H2O_Plot.git
-cd H2O_Plot
+git clone https://github.com/jav-ed/H2_Plot.git
+cd H2_Plot
 pip install -r Others/require.txt
 python main.py
 xdg-open Output/h2_Desnity_Plt.html
